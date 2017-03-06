@@ -1,7 +1,8 @@
 require 'rspec'
 
 class String
-  def total_words
+  def total_words sentence()
+    p total_words.count 
   end
 
   def word_list

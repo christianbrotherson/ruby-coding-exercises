@@ -1,9 +1,7 @@
 require 'rspec'
 
 def title_creator title
-	heading = %w{h1 title_placeholder h1}
-	heading[1] = title
-	p "<%s>%s</%s>" % heading
+	puts "<h1>" + title + "</h1>"
 end
 
 describe 'HTML h1 converter' do
