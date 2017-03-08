@@ -1,11 +1,12 @@
 require 'rspec'
 
 class String
-  def total_words sentence()
-    p total_words.count 
+  def total_words(sentence)
+    p sentence.count 
   end
 
   def word_list
+    return Hash.new("#{sentence}")
   end
 end
 
@@ -30,3 +31,4 @@ describe 'Word Reporter' do
   end
 end
 
+total_words("- the quick brown fox / jumped over the lazy fox.")
