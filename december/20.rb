@@ -20,3 +20,6 @@ describe "String Parser" do
     expect(string_parser(string_array)).to eq([100, 100, 50, 100, 100, 20, 1, 100, 55])
   end
 end
+
+
+asdfljsdfk
